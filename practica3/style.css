@@ -1,0 +1,72 @@
+body {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f3f5;
+    margin: 0;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+div {
+    
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#imagen {
+    border: 5px solid #3498db;
+    border-radius: 15px; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    max-width: 100%; 
+    height: auto;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
+    color: white; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+#Button1 {
+    background-color: #2ecc71;
+}
+
+#Button2 {
+    background-color: #3498db;
+}
+
+#Button3 {
+    background-color: #e67e22;
+}
+
+#Button4 {
+    background-color: #9b59b6;
+}
+
+button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px); 
+}
+
+button:active {
+    transform: translateY(1px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
